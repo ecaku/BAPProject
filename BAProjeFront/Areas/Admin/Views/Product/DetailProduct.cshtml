@@ -1,0 +1,121 @@
+@model ProductListModel
+<section>
+		<div class="container p-5">
+			<div class="row">
+                
+
+                <div class="col-sm-12 padding-right">
+					<div class="product-details"><!--product-details-->
+						<div>
+							<div class="view-product">
+								<img src="http://localhost:51061/api/images/GetProductImageById/@Model.Id" class="img-fluid rounded float-left"/>
+								
+								<h2>Details</h2>
+							</div>
+						</div>
+						
+							
+							<div class="product-information"><!--/product-information-->
+								<img src="images/product-details/new.jpg" class="newarrival" alt="" />
+								<div>
+									<h2>@Model.ProductName</h2>
+								
+
+									<p value="@Model.StockQuantity"></p>
+									<p><b>Price:</b>@Model.Price TL</p>
+									<p><b>Stock:</b>@Model.StockQuantity</p>
+									<p><b>Availability:</b> In Stock</p>
+									<p><b>Condition:</b> New</p>
+									<p><b>Brand:</b> E-SHOPPER</p>
+                                
+									<button asp-controller="products" asp-action="delete" asp-route-id="@Model.Id" type="button" class="btn btn-danger">
+										Delete
+									</button>
+									
+								</div>
+								
+								
+							</div><!--/product-information-->
+					    
+                    </div>
+            </div> 
+			
+				<div class="col-sm">
+					<h2>Update</h2>
+					<div class="input-group mb-3">
+						<form  asp-action="updateProduct" method="Post" class="p-3" enctype="multipart/form-data">
+							
+						<div class="form-group">
+							<label asp-for="Id" >Product Id</label>
+							<input asp-for="Id" readonly class="form-control">
+						</div>	
+  							
+						<div class="form-group">
+        						<label asp-for="ProductName">Product Title</label>
+        						<input class="form-control" asp-for="ProductName">
+    					</div>
+    					<div class="form-group">
+        					<label asp-for="StockQuantity">Stock Quantity</label>
+        					<input class="form-control" type="number" asp-for="StockQuantity">
+    					</div>
+    					<div class="form-group">
+        					<label asp-for="Price">Price</label>
+        					<input class="form-control" type="number" asp-for="Price">
+    					</div>
+    					<div class="form-group">
+        					<label asp-for="CategoryId">Category Id</label>
+        					<input class="form-control" type="number" asp-for="CategoryId">
+    					</div>
+    					<div class="form-group">
+        					<label asp-for="Image">Photo</label>
+        					<input id="fileUpload" class="form-control-file"  type="file" asp-for="Image">
+    					</div>
+						@* <div id="dropContainer" style="border:1px solid black;height:100px;">
+   							Drop Here
+						</div> *@
+    					<div class="form-group">
+        					
+							<div class="form-group green-border-focus">
+  								<label asp-for="ProductDescription">Description</label>
+  								<textarea asp-for="ProductDescription" class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+							</div>
+        					
+    					</div>
+							
+								<button type="submit" class="btn btn-success">
+									Update
+								</button>
+							</a>
+  						</form>	
+					</div>
+				</div>
+			  
+       </div>           
+</section>  
+
+<script>
+// dragover and dragenter events need to have 'preventDefault' called
+// in order for the 'drop' event to register. 
+// See: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Drag_operations#droptargets
+dropContainer.ondragover = dropContainer.ondragenter = function(evt) {
+  evt.preventDefault();
+};
+
+dropContainer.ondrop = function(evt) {
+  // pretty simple -- but not for IE :(
+  fileInput.files = evt.dataTransfer.files;
+  alert("file1:"+fileInput.files);
+
+  // If you want to use some of the dropped files
+  const dT = new DataTransfer();
+  dT.items.add(evt.dataTransfer.files[0]);
+  dT.items.add(evt.dataTransfer.files[3]);
+  fileInput.files = dT.files;
+
+  alert("files:"+fileInput.files);
+  alert("items:"+dT.items);
+
+  evt.preventDefault();
+};	
+</script>
+

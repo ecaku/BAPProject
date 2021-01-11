@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pNmuBfpHaJnB6KXqNlMH/AShhV+Yc2x58MVcHn7U2AY5SC1f+0a1TeFozR6Y/ubF6gawvzNSI4X2vvLic/nS8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\BAProjeFront.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Emre\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

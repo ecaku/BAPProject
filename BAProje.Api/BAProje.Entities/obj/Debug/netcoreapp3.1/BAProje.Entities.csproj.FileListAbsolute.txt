@@ -1,0 +1,9 @@
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\bin\Debug\netcoreapp3.1\BAProje.Entities.deps.json
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\bin\Debug\netcoreapp3.1\BAProje.Entities.dll
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.csprojAssemblyReference.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.AssemblyInfoInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.AssemblyInfo.cs
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\bin\Debug\netcoreapp3.1\BAProje.Entities.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.dll
+C:\Users\Emre\source\repos\BAProje.Entities\BAProje.Entities\obj\Debug\netcoreapp3.1\BAProje.Entities.pdb

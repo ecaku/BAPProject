@@ -1,0 +1,54 @@
+@model List<CategoryListModel>
+
+
+
+
+<style>
+	.sidebar-Deco{
+		text-align: center;
+		font-family: sans-serif;
+		font-style: normal;
+        
+        display: block;     
+        position: relative;  
+		
+	}
+    .cateHeader:before{
+        color: orange;
+        text-decoration: black;
+        text-underline-position: below;
+        margin-left: 0px !important;
+    }
+    .denemeS{
+        width: inherit;
+        height: inherit;
+        display: block;
+        padding: 20px;
+        border: 1.5px solid #00000010;
+        font-family: sans-serif;
+        color:black;
+        font-weight: bold;
+        font-size: 16px;
+        opacity: 0.6;
+        
+    }
+    
+    .denemeS:hover{
+        color:orange;       
+        background-color:black;
+        
+
+    }
+    
+</style>
+
+<h2 class="cateHeader">Category</h2>
+@foreach (var category in Model)
+{
+    <div class="left-sidebar">
+                        
+                       <a class="denemeS" asp-controller="product" asp-action="GetProductsByCategory" asp-route-categoryId="@category.Id" class="sidebar-Deco">@category.CategoryName</a>
+    </div>
+}
+
+

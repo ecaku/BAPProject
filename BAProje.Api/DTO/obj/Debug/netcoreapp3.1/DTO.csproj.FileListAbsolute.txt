@@ -1,0 +1,12 @@
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\bin\Debug\netcoreapp3.1\BAProje.Entities.dll
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\bin\Debug\netcoreapp3.1\BAProje.Entities.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CopyComplete

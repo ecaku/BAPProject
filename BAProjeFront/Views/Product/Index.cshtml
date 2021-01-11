@@ -1,0 +1,87 @@
+	@model List<ProductListModel>
+    
+	
+
+	<partial name="_PartialAdSpace">
+    <section>
+		<div class="container">
+			<div class="row pt-30 pb-30">
+				<div class="col-sm-4">
+					<form asp-action="index" asp-controller="product" method="GET">
+						<input class="form-control p-5" type="text" name="searchS" >
+						
+						<button class="btn btn-warning pt-5 pb-5" type="submit">Search!</button>
+						@if(!string.IsNullOrWhiteSpace(ViewBag.SearchString)){
+						@await Component.InvokeAsync("Search",new {@searchS=ViewBag.SearchString})
+						}
+						
+					</form>
+					
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+                    <div class="left-sidebar">
+					
+						<a></span ><i style="text-align: center;" >@await Component.InvokeAsync("CategoryList")</i></a>
+                        
+                        <!--/category-products-->
+				    
+                    </div>
+				</div>
+
+                <div class="col-sm-9 padding-right">
+					<div class="features_items"><!--features_items-->
+						<h2 class="title text-center">Features Items</h2>
+				        @foreach (var product in Model)
+                        {
+                    
+						    <div class="col-sm-4" >
+                                
+							    <div title="@product.ProductDescription" class="product-image-wrapper">
+								    <div class="single-products">
+										<div class="productinfo text-center">
+											<img src="http://localhost:51061/api/images/GetProductImageById/@product.Id" />
+											<h2>@product.Price TL</h2>
+											
+											<a  class="btn btn-default add-to-cart">@product.ProductName</a>
+										    </div>
+									<div class="product-overlay">
+										<div class="overlay-content">
+                                                <img src="http://localhost:51061/api/images/GetProductImageById/@product.Id">
+												<h2>@product.Price TL</h2>
+												<p>@product.ProductName</p>
+												<a asp-controller="Cart" asp-action="AddProductToCart" asp-route-id="@product.Id" asp-area="" 
+                                                    class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart
+                                                </a>
+                                                <a asp-controller="product" asp-action="ProductDetails" asp-route-id="@product.Id" 
+                                                    class="btn btn-default add-to-cart">Details
+                                                </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                    
+                		}	
+						
+                    </div>
+
+					
+
+                </div>
+				
+			</div>
+
+			@await Component.InvokeAsync("LastFiveList")
+			
+
+				
+
+				
+			</div>
+		</div>
+						
+
+	</section>

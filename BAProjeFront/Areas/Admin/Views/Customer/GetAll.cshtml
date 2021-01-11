@@ -1,0 +1,36 @@
+@model List<CustomerViewModel>
+
+<div class="container">
+    <div class="row">
+        <div class="md-12 p-3">
+            <table class="table">
+            <thead>
+                <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Cart</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var customer in Model)
+                {
+                <tr>
+                    
+                <th scope="row">@customer.Id</th>
+                <td>@customer.CustomerName</td>
+                <td>@customer.Email</td>
+                @if(customer.Cart!=null){
+                    <td><a asp-controller="" asp-action="" asp-route-id="">@customer.Cart.Id</a></td>
+                }
+                
+                </tr>
+                }
+                
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

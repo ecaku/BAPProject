@@ -1,0 +1,15 @@
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BaProje.DataAccess.deps.json
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BaProje.DataAccess.dll
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.csprojAssemblyReference.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.AssemblyInfo.cs
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BaProje.DataAccess.runtimeconfig.json
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BaProje.DataAccess.runtimeconfig.dev.json
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.genruntimeconfig.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BaProje.DataAccess.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BAProje.Entities.dll
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\bin\Debug\netcoreapp3.1\BAProje.Entities.pdb
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.csproj.CopyComplete
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.dll
+C:\Users\Emre\source\repos\BAProje.Entities\BaProje.DataAccess\obj\Debug\netcoreapp3.1\BaProje.DataAccess.pdb

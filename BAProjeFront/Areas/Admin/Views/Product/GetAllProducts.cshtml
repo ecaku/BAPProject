@@ -1,0 +1,27 @@
+
+@model List<ProductListModel>
+
+<div class="container">
+	<div class="row">
+        <div class="col-sm-12 p-5">
+			<a class="btn btn-success btn-lg btn-block" asp-controller="product"  asp-action="Create">Add Product</a>
+		</div>
+
+            @foreach (var product in Model)
+            {
+            <div class="col-sm-4" >
+                <div class="card mt-3 ml-8" style="width: 18rem;">
+                    <img src="http://localhost:51061/api/images/GetProductImageById/@product.Id" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.ProductName</h5>
+                                <p class="card-text text-truncate">@product.ProductDescription</p>
+                            <a asp-controller="product" asp-action="detailProduct" asp-route-id="@product.Id" class="btn btn-primary">Details</a>
+                        </div>
+                </div>
+            </div>
+            }   
+        </div>        
+    </div>     
+</div>       
+
+
