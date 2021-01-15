@@ -509,11 +509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\DTO.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -533,8 +533,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj": {
-              "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj"
+            "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj"
             }
           }
         }

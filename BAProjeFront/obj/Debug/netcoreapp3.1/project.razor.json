@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\BAProjeFront.csproj",
+  "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\BAProjeFront.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14458,128 +14458,128 @@
   "RootNamespace": "BAProjeFront",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Product\\ProductDetails.cshtml",
-      "TargetPath": "Views\\Product\\ProductDetails.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Views\\Product\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Account\\Signin.cshtml",
-      "TargetPath": "Views\\Account\\Signin.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Product\\DetailProduct.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\DetailProduct.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\Components\\LastFiveList\\default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\LastFiveList\\default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Customer\\GetAll.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Customer\\GetAll.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\_PartialAdSpace.cshtml",
-      "TargetPath": "Views\\Shared\\_PartialAdSpace.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Home\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\Components\\CategoryList\\default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\CategoryList\\default.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Account\\AccountInfo.cshtml",
-      "TargetPath": "Views\\Account\\AccountInfo.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Home\\contact.cshtml",
-      "TargetPath": "Views\\Home\\contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\Components\\Search\\default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Search\\default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Category\\Index.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Category\\Index.cshtml",
       "TargetPath": "Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Customer\\GetCustomer.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Customer\\GetCustomer.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\_PartialAdSpace.cshtml",
+      "TargetPath": "Views\\Shared\\_PartialAdSpace.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Shared\\Components\\RecomendenProductList\\default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\RecomendenProductList\\default.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Views\\Product\\GetProductsByCategory.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Product\\GetProductsByCategory.cshtml",
       "TargetPath": "Views\\Product\\GetProductsByCategory.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPFront\\BAProjeFront\\Areas\\Admin\\Views\\Product\\GetAllProducts.cshtml",
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\Components\\Search\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Search\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Home\\contact.cshtml",
+      "TargetPath": "Views\\Home\\contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\Components\\LastFiveList\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\LastFiveList\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\Components\\CategoryList\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\CategoryList\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Product\\ProductDetails.cshtml",
+      "TargetPath": "Views\\Product\\ProductDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Customer\\GetCustomer.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Customer\\GetCustomer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Product\\DetailProduct.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\DetailProduct.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Account\\AccountInfo.cshtml",
+      "TargetPath": "Views\\Account\\AccountInfo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Customer\\GetAll.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Customer\\GetAll.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Product\\GetAllProducts.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Product\\GetAllProducts.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\Components\\RecomendenProductList\\default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\RecomendenProductList\\default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Views\\Account\\Signin.cshtml",
+      "TargetPath": "Views\\Account\\Signin.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProjeFront\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

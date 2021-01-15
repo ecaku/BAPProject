@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LYOxpsGEW+O3C0OXBUWZXSMZwLzBaC3cuhrZ7sv1kkyBNxL0MEMTTreUPvD85nmS7GzLzTb0ALfdZO+9aToq3A==",
+  "dgSpecHash": "RdpzI4+f5XZLFjmxo7Zj3R+a8tchWZ3Knp3mIODWWEfy04gjfubJCnlKQwEm9+6aNkQFZ+ar+64fzDo5z8Z+WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.8\\microsoft.aspnetcore.http.features.3.1.8.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",

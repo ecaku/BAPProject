@@ -5389,11 +5389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
       "projectName": "BaProje.DataAccess",
-      "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5413,8 +5413,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj": {
-              "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj"
+            "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj"
             }
           }
         }

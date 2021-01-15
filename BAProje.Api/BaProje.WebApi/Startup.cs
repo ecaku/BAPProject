@@ -78,6 +78,8 @@ namespace BaProje.WebApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseExceptionHandler("/Error");
+
             app.UseRouting();
 
             app.UseStaticFiles();

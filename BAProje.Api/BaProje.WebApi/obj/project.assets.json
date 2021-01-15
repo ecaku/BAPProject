@@ -973,6 +973,39 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NLog/4.7.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Config/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.7.6",
+          "NLog.Schema": "4.7.6"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "NLog.Schema/4.7.6": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "NuGet.Frameworks/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -2706,7 +2739,9 @@
           "BaProje.DataAccess": "1.0.0",
           "DTO": "1.0.0",
           "FluentValidation.AspNetCore": "9.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
+          "NLog": "4.7.6",
+          "NLog.Config": "4.7.6"
         },
         "compile": {
           "bin/placeholder/BaProje.Business.dll": {}
@@ -4290,6 +4325,67 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NLog/4.7.6": {
+      "sha512": "mVYfNsZk6HY26/S/T3vVd2RS/1GySaeNh6bjP8uE7mKAdTENlRycQr7S4FC+I//QflXl/D/HEEugE47BDxQ5wA==",
+      "type": "package",
+      "path": "nlog/4.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.7.6.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Config/4.7.6": {
+      "sha512": "4rrKtrgMZ4w9dyk/5aVISyGsfdcd+STumZONKouJFlJ3cvWLhw5cLe7QpqE/8SwW4E5Lr3xCqJA9e5QPCVMZNw==",
+      "type": "package",
+      "path": "nlog.config/4.7.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.config",
+        "contentFiles/any/any/NLog.config",
+        "nlog.config.4.7.6.nupkg.sha512",
+        "nlog.config.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "NLog.Schema/4.7.6": {
+      "sha512": "wHlakqgco/grSxtY6g2kq0o3QMmpTXgV6kBGXn9CkYxOzoVxMQkB/p5ZoayjOBvWbOUsWqpppo0ETaa/nysg2Q==",
+      "type": "package",
+      "path": "nlog.schema/4.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.xsd",
+        "contentFiles/any/any/NLog.xsd",
+        "nlog.schema.4.7.6.nupkg.sha512",
+        "nlog.schema.nuspec"
       ]
     },
     "NuGet.Frameworks/4.7.0": {
@@ -8868,11 +8964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.WebApi\\BaProje.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.WebApi\\BaProje.WebApi.csproj",
       "projectName": "BaProje.WebApi",
-      "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.WebApi\\BaProje.WebApi.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.WebApi\\BaProje.WebApi.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8892,14 +8988,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.Business\\BaProje.Business.csproj": {
-              "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.Business\\BaProje.Business.csproj"
+            "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.Business\\BaProje.Business.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.Business\\BaProje.Business.csproj"
             },
-            "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj": {
-              "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj"
+            "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj"
             },
-            "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\DTO\\DTO.csproj"
+            "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\DTO\\DTO.csproj"
             }
           }
         }

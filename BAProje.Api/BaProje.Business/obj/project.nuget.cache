@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ocZxWQU9iKd0lT0Ft18a5zsSlrSF5+DXgMIyM9TWu5ZQkL+Sc9Idezh9drmFirCbOhDsyvW/BdUgSaPbZvigw==",
+  "dgSpecHash": "MBQAk24BH5kDjklxLF05oPsOE3eOcrtWpZt9hH2bBWSGyjQ5ZO3X+/bo97IN6BC3bnrufiMr916MKjpPH9cQXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.Business\\BaProje.Business.csproj",
+  "projectFilePath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.Business\\BaProje.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.2.0\\fluentvalidation.aspnetcore.9.2.0.nupkg.sha512",
@@ -38,6 +38,9 @@
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\Emre\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512",
+    "C:\\Users\\Emre\\.nuget\\packages\\nlog.config\\4.7.6\\nlog.config.4.7.6.nupkg.sha512",
+    "C:\\Users\\Emre\\.nuget\\packages\\nlog.schema\\4.7.6\\nlog.schema.4.7.6.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

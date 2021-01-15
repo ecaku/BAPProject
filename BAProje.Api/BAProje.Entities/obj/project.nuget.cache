@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GIlBvGDw58iNK8TzdEoaLed+k/G90Gk39MHYqbzci3N63tgouBK55fxgBwKh3jNTMgQ73KLUcPJalraIC4B3Hw==",
+  "dgSpecHash": "RIOUiqBMLPFuB8idhpCokEhywT/SyTxjteWUlPwRxno0jC1KPk91wqnhZbKn9L/RLnmJq92yuqoh1SUkeTd4Aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",

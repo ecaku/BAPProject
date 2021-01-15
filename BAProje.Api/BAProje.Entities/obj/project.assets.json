@@ -398,11 +398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj",
       "projectName": "BAProje.Entities",
-      "projectPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\BAProje.Entities.csproj",
+      "projectPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\BAProje.Entities.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BAProje.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BAProje.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

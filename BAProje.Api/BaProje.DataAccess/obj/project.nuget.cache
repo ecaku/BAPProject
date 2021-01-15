@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mURXysf1WxADCHkzrbH5VQvxHDEiIV3Lg3XSQaCbxkoBIoETVXC2mp7r0yu/UYGSNDdEyrTSCpiSMAvgxdmIHQ==",
+  "dgSpecHash": "c6gnKyZ2Kmnw3FxN9z/BjXlOs/uauX1Oh3GFwBPul8846k9a+yEZ3M0MAUu0U4KpsXOwjUAC86OQfNqQvaN/OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\source\\repos\\BAProje.Entities\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Emre\\Desktop\\BAPProject\\BAPProject\\BAProje.Api\\BaProje.DataAccess\\BaProje.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
