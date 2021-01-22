@@ -1,8 +1,11 @@
 ﻿using BaProje.Business.Concrete;
 using BaProje.Business.Interfaces;
+using BaProje.Business.Tools;
 using BaProje.Business.Tools.JWTTool;
 using BaProje.Business.Tools.JWTTooll.JwtManager;
+using BaProje.Business.Tools.LogTool;
 using BaProje.Business.ValidationRules.FluentValidation;
+using BaProje.DataAccess.Concrete.EFRepository.Context;
 using BaProje.DataAccess.Concrete.EFRepository.Repositories;
 using BaProje.DataAccess.Interfaces;
 using DTO;
@@ -12,6 +15,7 @@ using Stripe;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace BaProje.Business.Containers.MicrosoftIoC
@@ -20,6 +24,8 @@ namespace BaProje.Business.Containers.MicrosoftIoC
     {
         public static void AddDependencies(this IServiceCollection services)
         {
+            services.AddDbContext<BAP_Context>();
+
             services.AddScoped(typeof(IGenericDal<>), typeof(EfGenericRepository<>));
             services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
 
@@ -47,6 +53,8 @@ namespace BaProje.Business.Containers.MicrosoftIoC
 
 
             services.AddScoped<IJwtService, JwtManager>();
+
+            services.AddScoped<ICustomLogger, NLogAdapter>();
 
             services.AddTransient<IValidator<CustomerLoginDto>, CustomerLoginValidator>();
             services.AddTransient <IValidator<CategoryAddDto>, CategoryAddValidator > ();

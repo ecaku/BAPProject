@@ -29,3 +29,5 @@ C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\obj\Deb
 C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\obj\Debug\netcoreapp3.1\BaProje.Business.csproj.CopyComplete
 C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\obj\Debug\netcoreapp3.1\BaProje.Business.dll
 C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\obj\Debug\netcoreapp3.1\BaProje.Business.pdb
+C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Emre\Desktop\BAPProject\BAPProject\BAProje.Api\BaProje.Business\obj\Debug\netcoreapp3.1\BaProje.Business.csproj.CoreCompileInputs.cache

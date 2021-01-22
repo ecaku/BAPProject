@@ -12,10 +12,15 @@ namespace BaProje.DataAccess.Concrete.EFRepository.Repositories
 {
     public class EfCartRepository:EfGenericRepository<Cart>,ICartDal
     {
+        private readonly BAP_Context _context;
+        public EfCartRepository(BAP_Context context):base(context)
+        {
+            _context = context;
+        }
         public async Task<Cart> GetCartWithProductOfCartByIdAsync(int id)
         {
-            using var context = new BAP_Context();
-            var cart = await context.Cart.Where(I => I.Id == id).Include(I => I.ProductOfCart).FirstOrDefaultAsync();
+            
+            var cart = await _context.Cart.Where(I => I.Id == id).Include(I => I.ProductOfCart).FirstOrDefaultAsync();
             return cart;
         }
     }

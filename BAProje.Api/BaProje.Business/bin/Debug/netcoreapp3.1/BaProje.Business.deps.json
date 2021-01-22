@@ -13,7 +13,8 @@
           "DTO": "1.0.0",
           "FluentValidation.AspNetCore": "9.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "NLog": "4.7.6"
+          "NLog": "4.7.6",
+          "NLog.Config": "4.7.6"
         },
         "runtime": {
           "BaProje.Business.dll": {}
@@ -384,6 +385,13 @@
           }
         }
       },
+      "NLog.Config/4.7.6": {
+        "dependencies": {
+          "NLog": "4.7.6",
+          "NLog.Schema": "4.7.6"
+        }
+      },
+      "NLog.Schema/4.7.6": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1281,6 +1289,20 @@
       "sha512": "sha512-mVYfNsZk6HY26/S/T3vVd2RS/1GySaeNh6bjP8uE7mKAdTENlRycQr7S4FC+I//QflXl/D/HEEugE47BDxQ5wA==",
       "path": "nlog/4.7.6",
       "hashPath": "nlog.4.7.6.nupkg.sha512"
+    },
+    "NLog.Config/4.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4rrKtrgMZ4w9dyk/5aVISyGsfdcd+STumZONKouJFlJ3cvWLhw5cLe7QpqE/8SwW4E5Lr3xCqJA9e5QPCVMZNw==",
+      "path": "nlog.config/4.7.6",
+      "hashPath": "nlog.config.4.7.6.nupkg.sha512"
+    },
+    "NLog.Schema/4.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wHlakqgco/grSxtY6g2kq0o3QMmpTXgV6kBGXn9CkYxOzoVxMQkB/p5ZoayjOBvWbOUsWqpppo0ETaa/nysg2Q==",
+      "path": "nlog.schema/4.7.6",
+      "hashPath": "nlog.schema.4.7.6.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

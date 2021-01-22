@@ -2,6 +2,7 @@
 using BAProje.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,9 +11,15 @@ namespace BaProje.DataAccess.Concrete.EFRepository.Context
 {
     public class BAP_Context:DbContext
     {
+        private readonly IConfiguration _configuration;
+        public BAP_Context(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB; database=BAProjectDB; integrated security=true;");
+            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("db1"));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

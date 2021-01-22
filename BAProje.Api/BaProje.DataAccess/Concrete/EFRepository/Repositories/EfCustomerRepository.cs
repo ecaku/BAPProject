@@ -12,16 +12,19 @@ namespace BaProje.DataAccess.Concrete.EFRepository.Repositories
 {
     public class EfCustomerRepository:EfGenericRepository<Customer>,ICustomerDal
     {
+        private readonly BAP_Context _context;
+        public EfCustomerRepository(BAP_Context context) : base(context)
+        {
+            _context = context;
+        }
         public async Task<List<Customer>> GetCustomersWithCard()
         {
-            var context = new BAP_Context();
-            var customers= await context.Customer.Include(I => I.Cart).ThenInclude(I=>I.ProductOfCart).ToListAsync();
+            var customers= await _context.Customer.Include(I => I.Cart).ThenInclude(I=>I.ProductOfCart).ToListAsync();
             return customers;
         }
         public async Task<Customer> GetCustomersWithCard(int id)
         {
-            var context = new BAP_Context();
-            var customer = await context.Customer.Where(I => I.Id == id)
+            var customer = await _context.Customer.Where(I => I.Id == id)
                 .Include(I => I.Cart)
                 .ThenInclude(I=>I.ProductOfCart)
                 .FirstOrDefaultAsync();
@@ -29,8 +32,7 @@ namespace BaProje.DataAccess.Concrete.EFRepository.Repositories
         }
         public async Task<Customer> FindByNameAsync(string name)
         {
-            var context = new BAP_Context();
-            var customer = await context.Customer.Where(I => I.CustomerName == name).Include(I => I.Cart).FirstOrDefaultAsync();
+            var customer = await _context.Customer.Where(I => I.CustomerName == name).Include(I => I.Cart).FirstOrDefaultAsync();
             return customer;
         }
     }

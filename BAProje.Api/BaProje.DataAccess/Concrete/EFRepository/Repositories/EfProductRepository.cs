@@ -13,11 +13,16 @@ namespace BaProje.DataAccess.Concrete.EFRepository.Repositories
 {
     public class EfProductRepository : EfGenericRepository<Product>, IProductDal
     {
+        private readonly BAP_Context _context;
+        public EfProductRepository(BAP_Context context):base(context)
+        {
+            _context = context;
+        }
         public async Task<List<Product>> GetLastFiveAsync()
         {
             {
-                using var context = new BAP_Context();
-                return await context.Product.OrderByDescending(I => I.PostedTime).Take(3).ToListAsync();
+                
+                return await _context.Product.OrderByDescending(I => I.PostedTime).Take(3).ToListAsync();
             }
         }
     }
